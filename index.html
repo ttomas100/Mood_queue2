@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Queue</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html" class="brand-logo center">Mood Queue</a>
+        </div>
+    </nav>
+
+    <div class="container">
+ 
+        <div class="card-body">
+
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="search-term" type="text" class="validate">
+                  <label class="active" for="search-term">Select your artist and enjoy the preview</label>
+                </div>
+              </div>
+            
+              <button type="submit" class="btn btn-default" id="run-search">
+                <i class="fa fa-search"></i> Search</button>
+              <button type="submit" class="btn btn-default" id="clear-all">
+                <i class="fa fa-trash"></i> Clear Results</button>
+
+                <div class="row">
+                    <div id = "previewMusic" class="col s12 hide"><p>This are your previews</p></div>
+                </div>
+              
+          </div>
+          <div class="card-body" id="preview-section">
+              
+        </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

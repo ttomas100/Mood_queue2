@@ -1,0 +1,13 @@
+#card {
+    margin-top: 100px;
+}
+body{
+    background-image: url(Assets/vinyl.jpg);
+    background-size: cover;
+}
+
+#search-term{
+    color: rgb(94, 14, 83);
+    font-size: large;
+    font-weight: bolder;
+}
